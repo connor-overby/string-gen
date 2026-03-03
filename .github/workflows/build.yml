@@ -16,3 +16,5 @@ jobs:
       uses: actions/checkout@main
     - name: make
       run: make
+    - name: publish artifact
+      uses: actions/upload-artifact
